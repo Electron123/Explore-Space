@@ -15,7 +15,7 @@
 	margin-top: -10px; 
 }
 
-.container #intro #text{
+.container #intro #text {
 	font-family: Roboto;
 	font-size: 15px;
 	color: grey;
@@ -43,7 +43,7 @@
 	margin-top: 5px;
 }
 .container #intro button#contact {
-	padding: 10px 80px;
+	padding: 10px 75px;
 }
 /*
 .container #intro button:hover{
