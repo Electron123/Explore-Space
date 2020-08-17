@@ -1,3 +1,14 @@
+@media screen and (max-width: 1224px){
+	.container {
+		width: 700px;
+	}
+	.container #intro h2{
+		font-size: 30px;
+	}
+	.container #intro img {
+		width: 200px;
+	}
+}
 @media screen and (max-width: 1000px){
 	.header .menu {
 		padding: 30px 0;
