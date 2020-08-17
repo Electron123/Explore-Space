@@ -6,6 +6,8 @@
 	width: 1000px; 
 	border-radius: 30px;
 	animation: fadeInvw 1s;
+	border-bottom: 5px solid lightgrey;
+	box-shadow: 0 0 5px lightgrey;
 }
 
 .container #intro h2 {
