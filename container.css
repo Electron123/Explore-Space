@@ -3,9 +3,11 @@
 	margin: 5% auto;
 	padding: 0 50px 40px 50px;
 	background: #fff;
-	width: 70%; 
+	width: 1000px; 
 	border-radius: 30px;
 	animation: fadeInvw 1s;
+	border-bottom: 5px solid lightgrey;
+	box-shadow: 0 0 5px lightgrey;
 }
 
 .container #intro h2 {
@@ -15,7 +17,7 @@
 	margin-top: -10px; 
 }
 
-.container #intro #text{
+.container #intro #text {
 	font-family: Roboto;
 	font-size: 15px;
 	color: grey;
@@ -43,7 +45,7 @@
 	margin-top: 5px;
 }
 .container #intro button#contact {
-	padding: 10px 80px;
+	padding: 10px 75px;
 }
 /*
 .container #intro button:hover{

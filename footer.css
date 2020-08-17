@@ -1,5 +1,4 @@
 footer{
-	border: 1px solid lightgrey;
 	background: #151212;
 	padding: 50px 40px;
 }
@@ -16,12 +15,12 @@ footer .details i{
 }
 
 footer .details i, p{
-	margin: 10px;
+	margin-right: 10px;
 	display: inline-block;
 }
 
 footer .details p {
-	color: #ddd;
+	color: grey;
 }
 
 footer .details #company {
