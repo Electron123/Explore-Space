@@ -25,7 +25,7 @@ body{
 }
 
 .header #title h1 {
-	font-size: 7vw;
+	font-size: 50px;
 	text-align: center;
 	animation: fadeIn 1s;
 	animation: moveUp 1s;
@@ -34,7 +34,7 @@ body{
 .header #title p {
 	text-align: center;
 	color: white;
-	font-size: 2vw;
+	font-size: 20px;
 	font-family: Roboto;
 	animation: fadeIn 1s;
 }

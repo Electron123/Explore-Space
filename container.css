@@ -1,25 +1,25 @@
 .container {
 	text-align: center;
 	margin: 5% auto;
-	padding: 20px 50px;
+	padding: 0 50px 40px 50px;
 	background: #fff;
 	width: 70%; 
 	border-radius: 30px;
 	animation: fadeInvw 1s;
 }
 
-.container #intro h2{
+.container #intro h2 {
 	font-size: 50px;
 	font-family: Roboto;
 	color: rgba(40, 40, 40);
-	margin-top: 10px;
+	margin-top: -10px; 
 }
 
 .container #intro #text{
 	font-family: Roboto;
 	font-size: 15px;
 	color: grey;
-	line-height: 20px;
+	margin-top: 10px;
 }
 
 .container #intro b{
@@ -31,22 +31,26 @@
 .container #intro button{
 	display: inline-block;
 	padding: 10px 30px;
-	border-radius: 30px;
+	border-radius: 10px;
 	color: white;
 	outline: none;
 	background: #333;
 	border: none;
+	border-bottom: 5px solid black;
 	font-family: Roboto;
 	cursor: pointer;
 	font-size: 20px;
 	margin-top: 5px;
 }
-
+.container #intro button#contact {
+	padding: 10px 80px;
+}
+/*
 .container #intro button:hover{
 	background: none;
 	color: #434343;
 	border: 1px solid lightgrey;
-}
+}*/
 
 .container #intro * {
 	margin-top: 50px;
