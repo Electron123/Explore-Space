@@ -1,0 +1,36 @@
+footer{
+	border: 1px solid lightgrey;
+	background: #151212;
+	padding: 50px 40px;
+}
+
+footer .details{
+	color: white;
+	font-family: Roboto;
+	padding: 10px;
+	display: inline-block;
+}
+
+footer .details i{
+	font-size: 50px;
+	margin-right: 5px;
+	color: grey;
+}
+
+footer .details i, p{
+	margin: 10px;
+	display: inline-block;
+}
+
+footer .details p {
+	color: #ddd;
+}
+
+footer .details #company {
+	line-height: 20px;
+}
+
+footer .details h1{
+	font-size: 30px;
+	color: grey;
+}

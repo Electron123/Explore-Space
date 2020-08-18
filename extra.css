@@ -1,0 +1,20 @@
+.hr{
+	height: 1px;
+	width: 65vw;
+	background: lightgrey;
+	text-align: center;
+	margin: 5vw auto;
+}
+
+::-webkit-scrollbar{
+	width: 8px;
+}
+
+::-webkit-scrollbar-track{
+	background: skyblue;
+}
+
+::-webkit-scrollbar-thumb {
+	background: white;
+	border-radius: 5px;
+}

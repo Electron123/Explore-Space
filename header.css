@@ -3,10 +3,14 @@
 	margin: 0;
 }
 
+body{
+	background: #eee;
+}
+
 .header{
 	background-image: url("images/header.jpg");
 	height: 400px;
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	animation: earthUp 1s;
@@ -17,46 +21,33 @@
 .header #title{
 	color: white;
 	font-family: Roboto;
+	padding: 100px;
 }
 
 .header #title h1 {
-	font-size: 5vw;
+	font-size: 7vw;
 	text-align: center;
-	margin-top: 100px;
 	animation: fadeIn 1s;
 	animation: moveUp 1s;
 }
 
-.header #title p{
+.header #title p {
 	text-align: center;
 	color: white;
-	font-size: 20px;
+	font-size: 2vw;
 	font-family: Roboto;
 	animation: fadeIn 1s;
 }
 
-@keyframes fadeIn {
-	0% { opacity: 0; }
-	100% { opacity: 1; }
-}
-@keyframes moveUp {
-	0% { margin-top: 120px; }
-	100% { margin-top: 100px; }
-}
-@keyframes earthUp {
-	0% {
-		background-position: 0 -20px;
-	}
-	100% {
-		background-position: auto;
-	}
-}
-
 .header .menu {
 	text-align: center;
-	padding: 15px 0;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
-}
+	padding: 10px 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	padding: 10px 20px;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5));
+} 
 
 .header .menu a{
 	margin: 0 25px;
@@ -66,4 +57,20 @@
 	color: white;
 	font-size: 20px;
 	font-family: Roboto;
+}
+
+
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+@keyframes earthUp {
+	0% {
+		background-position: 0 -20px;
+	}
+	100% {
+		background-position: auto;
+	}
 }
