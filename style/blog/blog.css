@@ -17,26 +17,37 @@ body{
 }
 
 .container {
-	padding: 15px 20px;
 	background: white;
-}
-
-.container h1{
-	font-size: 50px;
-	font-family: 'Roboto', sans-serif;
-}
-
-.container .links {
-	padding: 20px 10px;
-}
-.container .links a {
-	display: block;
-	margin: 10px;
-	font-size: 20px;
-	text-decoration: none;
-	font-family: 'Oswald', sans-serif;
-	border: 1px solid lightgrey;
-	color: black;
 	padding: 10px;
 }
 
+.container .blogs {
+	background: #eee;
+	height: 300px;
+	width: 300px;
+	padding: 10px;
+	margin: 5px;
+	display: inline-block;
+}
+
+.container .blogs img, a, p {
+	display: block;
+}
+
+.container .blogs img {
+	margin: 0 auto;
+	width: 176px;
+	height: 155px;
+}
+
+.container .blogs a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container .blogs p{
+	float: right;
+	display: block;
+}
