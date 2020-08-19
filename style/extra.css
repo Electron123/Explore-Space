@@ -6,6 +6,26 @@
 	margin: 5vw auto;
 }
 
+.search {
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 30px;
+}
+
+.search input {
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+
+.search input[type=submit] {
+	background: #444;
+	cursor: pointer;
+	color: white;
+	margin-left: 5px;
+}
+
 ::-webkit-scrollbar{
 	width: 8px;
 }

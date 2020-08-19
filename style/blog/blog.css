@@ -2,6 +2,7 @@
 body{
 	padding: 0;
 	margin: 0;
+	background: #eee;
 }
 .header{
 	background: url("images/header.jpg");
@@ -14,3 +15,28 @@ body{
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 }
+
+.container {
+	padding: 15px 20px;
+	background: white;
+}
+
+.container h1{
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container .links {
+	padding: 20px 10px;
+}
+.container .links a {
+	display: block;
+	margin: 10px;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	border: 1px solid lightgrey;
+	color: black;
+	padding: 10px;
+}
+
