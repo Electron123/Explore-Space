@@ -22,6 +22,18 @@ body{
 	text-align: center;
 }
 
+.container h1{ 
+	font-family: 'Oswald', sans-serif;
+	font-size: 80px;
+	margin-top: -20px;
+}
+
+.container p {
+	font-family: 'Roboto', sans-serif;
+	line-height: 25px;
+	font-size: 20px;
+}
+
 .container .blogs {
 	background: #eee;
 	height: 300px;
@@ -51,4 +63,12 @@ body{
 
 .container .blogs p{
 	float: right;
+}
+
+.container .blogs a:hover {
+	color: #333;
+}
+
+.container .blogs:hover {
+	box-shadow: 2px 3px 10px lightgrey;
 }
