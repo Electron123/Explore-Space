@@ -4,17 +4,6 @@ body{
 	margin: 0;
 	background: #eee;
 }
-.header{
-	background: url("images/header.jpg");
-	padding: 30px 20px;
-	color: white;
-}
-
-.header h1{
-	font-size: 80px;
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-}
 
 .container {
 	background: white;
