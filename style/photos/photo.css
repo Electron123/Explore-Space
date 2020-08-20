@@ -7,7 +7,7 @@
 	width: 176px;
 	height: 155px;
 	margin: 10px;
-	animation: fadein 1s linear;
+	animation: fadein .40s;
 	border-radius: 20px;
 }
 
