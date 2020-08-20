@@ -1,6 +1,8 @@
 .imgs {
 	background: white;
 	padding: 10px 5px;
+	width: 1000px;
+	margin: 0 auto;
 }
 
 .imgs img {
