@@ -1,0 +1,18 @@
+.imgs {
+	background: white;
+	padding: 10px 5px;
+}
+
+.imgs img {
+	width: 176px;
+	height: 155px;
+	margin: 10px;
+	animation: fadein 1s linear;
+	border-radius: 20px;
+}
+
+
+@keyframes fadein{
+	0% {opacity: 0;}
+	100% {opacity: 100%;}
+}
